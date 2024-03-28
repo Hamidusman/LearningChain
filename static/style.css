@@ -4,6 +4,7 @@ body{
 }
 *{
     margin: 0;
+    font-family: 'inter';
     padding: 0;
 }
 
@@ -58,4 +59,31 @@ nav{
 .overview{
     font-size: 28px;
     flex-wrap: wrap;
+}
+
+.descriptions{
+    list-style-type: none;
+}
+
+.bars{
+    border-left: 2px solid black;
+    padding-left: 30px;
+    border-right: 2px solid black;
+    padding-right: 30px
+}
+
+.enroll{
+    padding: 7px 20px;
+    background-color: black;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.enroll:hover{
+    
+    color: var(--primary-color);
+    transition: .4s
 }
