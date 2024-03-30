@@ -2,6 +2,12 @@ body{
     margin: 0;
     overflow-x: hidden;
 }
+
+.heading{
+    font-weight: bold;
+    font-size: ;
+
+}
 *{
     margin: 0;
     font-family: 'inter';
@@ -57,7 +63,7 @@ nav{
 }
 
 .overview{
-    font-size: 28px;
+    font-size: 35px;
     flex-wrap: wrap;
 }
 
@@ -67,7 +73,8 @@ nav{
 
 .bars{
     border-left: 2px solid black;
-    padding: 0 30px;
+    padding: 0 40px;
+    margin: 0 40px;
     border-right: 2px solid black; 
 }
 
@@ -89,9 +96,8 @@ nav{
 
 /* About */
 
-.about{
+.features{
     width: 100%;
-    height: 100%;
 }
 
 .feat-container{
@@ -101,11 +107,21 @@ nav{
     margin: 20px; 
     margin-top: -130px;
     flex-wrap: wrap;
-    width:280px;
+    width:265px;
     height: 360px;
     background-color: navy;
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
+}
+
+@media (max-width: 720px){
+    .feat-container{
+        flex-direction: column;
+    }
+
+    .feat{
+        margin-top: 20px
+    }
 }
 
 
@@ -114,5 +130,41 @@ nav{
     color: white;
 }
 .feat-des{
+    font-size: 14;
 
+}
+
+
+.about{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.about-container{
+    width: 100%;
+    height: auto;
+    margin-top: 30;
+    align-items: center;
+
+}
+
+
+@media (max-width: 900px){  
+    .about-container{
+        flex-direction: column;
+
+    }
+}
+.about-text{
+    width: 390px;
+}
+
+.about-des{
+    font-size: 14;
+    margin-top: 15px;
+}
+.about-img{
+    width: 390px;
+    height: 240px;
 }
