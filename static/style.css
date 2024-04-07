@@ -271,14 +271,14 @@ footer{
     width: 50%;
     height: auto;
     margin-top: 45px;
-    background-color: gainsboro;
 }
 
 .forum-container{
     width: 100%;
     height: 260px;
-    background-color: pink;
+    background-color: whitesmoke;
     padding: 20px;
+    border-radius: 30px;
 }
 
 .forum-items{ 
@@ -315,8 +315,13 @@ footer{
 
 .forum-category{
     width: fit-content;
-    padding: 1px 8px;
-    background-color: ;
+    padding: 3px 11px;
+    background-color: var(--primary-color);
     border-radius: 10px;
 
+}
+
+.forum-filter{
+    
+    margin-top: 40px;
 }
