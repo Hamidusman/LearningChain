@@ -325,3 +325,23 @@ footer{
     
     margin-top: 40px;
 }
+
+.forum-post{
+    width: auto;
+    height: 100%;
+
+}
+
+.post{
+    margin: 5px;
+    width: ;
+    height: auto;
+    background-color:whitesmoke;
+}
+
+.like{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: blue;
+    width: fit-content;
+}
