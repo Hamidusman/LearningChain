@@ -326,22 +326,29 @@ footer{
     margin-top: 40px;
 }
 
-.forum-post{
+.forum-post, .comment-container{
     width: auto;
-    height: 100%;
 
 }
 
 .post{
-    margin: 5px;
-    width: ;
-    height: auto;
+    margin: 5px; 
     background-color:whitesmoke;
 }
 
 .like{
-    padding: 10px;
+    padding: 5px 10px;
     border-radius: 30px;
     background-color: blue;
     width: fit-content;
+    border: 0px
+}
+
+.comment-container{
+    background-color: whitesmoke;
+    margin: 5px; 
+}
+
+.comment{
+    font-size: 14px;
 }
